@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-image: url("/image/header.jpg");
+    background-image: url("/image/bkg.JPG");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,21 +10,23 @@ nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
+    font-size: 1.2em;
     font-weight: bold;
-    text-align: center;
-    text-decoration: underline dotted gray;
+    text-align: right;
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-left: 2%;
-    margin-right: 2%;
+}
+nav ul li.true {
+    text-decoration: underline;
 }
 
 a {
@@ -39,14 +41,13 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    text-align: center;
 }
 h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
 h5{
-    text-align: center;
+    text-align: left;
 }
 p {
     font-size: 1.2em;
@@ -65,21 +66,9 @@ ul.posts {
     font-size: 1.2em;
 }
 
-ul.posts li {
-    list-style: none;
-}
 
-hr {
-    width: 300px;
-    height: 2px;
-    background-color:rgba(0,0,0,0);
-    border: 0 none;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-div.intro {
-    background-color:rgba(0,0,0,0.15);
+div.blurb {
+    background-color:rgba(0,0,0,0.05);
     padding: 2%;
     text-indent:20px;
     margin-bottom: 10px;
@@ -87,10 +76,14 @@ div.intro {
 
 div.post{
     font-size: 1.1em;
-    background-color:rgba(0,0,0,0.15);
+    background-color:rgba(0,0,0,0.05);
     padding: 2%;
     text-indent:40px;
     margin-bottom: 10px;
+}
+
+div.header{
+    display: inline;
 }
 
 p.meta {
