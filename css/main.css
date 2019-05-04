@@ -1,3 +1,7 @@
+body,html{ 
+    height:100%;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -24,9 +28,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-left: 2%;
 }
-nav ul li.true {
-    text-decoration: underline;
-}
+
 
 a {
     text-decoration: none;
@@ -100,6 +102,7 @@ div.post{
     padding: 2%;
     text-indent:40px;
     margin-bottom: 10px;
+    height: 100%;
 }
 
 div.header{
