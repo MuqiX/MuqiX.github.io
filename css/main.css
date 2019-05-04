@@ -69,21 +69,28 @@ ul.posts {
 div.blurb {
     background-color:rgba(0,0,0,0.05);
     padding: 2%;
-    text-indent:20px;
     margin-bottom: 10px;
     overflow: hidden;
 }
 
 div.intro {
     float: left;
+    text-indent:20px;
     width:75%
 }
 
 div.avatar img{
-    float: right;
+    float:right;
     border-radius: 50%;
     width: 20%;
     opacity: 0.7;
+}
+
+div.avatar p{
+    float:right;
+    font-size:1.0em;
+    text-align: center;
+    padding-right: 3%;
 }
 
 div.post{
