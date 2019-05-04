@@ -42,6 +42,9 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
+h5{
+    text-align: center;
+}
 p {
     font-size: 1.2em;
     line-height: 1.4em;
@@ -80,9 +83,10 @@ div.intro {
 }
 
 div.post{
+    font-size: 1.1em;
     background-color:rgba(0,0,0,0.15);
     padding: 2%;
-    text-indent:20px;
+    text-indent:40px;
     margin-bottom: 10px;
 }
 
