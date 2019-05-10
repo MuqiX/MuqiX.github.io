@@ -105,6 +105,11 @@ div.post{
     height: 100%;
 }
 
+div.post img{
+    opacity: 0.7;
+    text-align: center;
+}
+
 div.header{
     display: inline;
 }
