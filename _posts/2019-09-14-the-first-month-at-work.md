@@ -7,7 +7,7 @@ category: "每日心情"
 
 昨天和老崔connect，老崔看着时间Aug.12-Sep.12，很惊喜地说"Wow, you've been here for exactly a month"。我很无厘头的纠正了一句"Well, actually YESTERDAY was exactly a month…"
 
-![我的办公楼](/image/IMG_7255.JPG){:height="40%" width="40%" align=center}
+![我的办公楼](/image/IMG_7255.jpg){:height="40%" width="40%" align=center}
 
 和上学时感受不同，这一个月过得十分漫长。好像已经过了很久很久，还是望不到头。直到有一天突然意识到，怎么会望到头呢？学生时代存在毕业，但是工作阶段并没有“毕业”的定义。刚开始的两周总时不时产生过完这段时间就会结束的错觉，而每当我回过神来提醒自己“没有结束”的时候，都暗自一阵心惊。
 
