@@ -6,6 +6,7 @@ category: "每日心情"
 ---
 
 昨天和老崔connect，老崔看着时间Aug.12-Sep.12，很惊喜地说"Wow, you've been here for exactly a month"。我很无厘头的纠正了一句"Well, actually YESTERDAY was exactly a month…"
+<!--more-->
 
 ![我的办公楼](/image/IMG_7255.jpg){:height="40%" width="40%" align=center}
 

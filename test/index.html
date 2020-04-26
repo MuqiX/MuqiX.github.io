@@ -1,0 +1,15 @@
+---
+layout: bloglayout
+title: Muqi's Blog
+---
+<ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+        <span>[{{post.category}}] </span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} | {{ post.title }}</a>
+        {{ post.content | split:'<!--more-->' | first }}   
+        <p><h3><a href="{{ post.url }}">继续阅读 &raquo;</a></h3></p>
+        <hr />
+    </li>
+    {% endfor %}
+</ul>
+{% include pagination.html %}
