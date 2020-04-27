@@ -2,7 +2,7 @@
 layout: post
 title: "不是最后"
 date: 2019-06-07
-category: "每日心情"
+category: "Diary"
 ---
 
 谁都不曾想到，毕业后才过了不到20天，我又一次回到了耶鲁校园。

@@ -2,7 +2,7 @@
 layout: post
 title: "我应该庆幸我属于大多数吗"
 date: 2019-05-30
-category: "影视剧评"
+category: "Review"
 ---
 
 看完了期待已久的Rent(2008 Live)，这几天脑海里都萦绕着这个剧，无论是人物，音乐，还是折射出来的社会背景。最初因为喜爱的云次方演唱过其中的 I'll cover you 而知道这部音乐剧，因为话题的沉重性耽搁了许久都没有看。终于在昨天鼓足勇气看完，不出意外地在 I'll cover you(reprise) 处落泪，但是引发思考的却不仅仅是Angel的去世。

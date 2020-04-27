@@ -4,31 +4,25 @@ body,html{
 
 body {
     margin: 60px auto;
-    width: 70%;
-    background-image: url("/image/bkg.JPG");
+    width: 80%;
+    background-image: url("/image/3459068.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
+
 nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-size: 1.2em;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
 }
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    text-align: right;
-}
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-left: 2%;
 }
-
 
 a {
     text-decoration: none;
@@ -41,46 +35,64 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
 h5{
     text-align: left;
 }
+
 p {
-    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: 1em;
+p.meta {
+    text-align: center;
+    font-size: 1.0em;
 }
 
+ul.posts li{
+    list-style: none;
+    margin-bottom: 1.5em;
+}
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 20px auto 40px;
+}
+ul.posts p{
+    text-indent:35px;
+    font-size: 1em;
+    font-weight: 150;
+    margin-left: 3%;
+}
+ul.posts span{
     font-size: 1.2em;
+    font-weight: 500;
+}
+ul.category{
+    margin-top: 10%;
+}
+ul.category li{
+    list-style: none;
+    margin-bottom: 1em;
 }
 
-
+div.title{
+    text-align: center;
+}
 div.blurb {
     background-color:rgba(0,0,0,0.05);
     padding: 2%;
     margin-bottom: 10px;
     overflow: hidden;
 }
-
 div.intro {
     float: left;
     text-indent:20px;
     width:75%
 }
-
 div.avatar img{
     float:right;
     border-radius: 50%;
@@ -88,14 +100,6 @@ div.avatar img{
     opacity: 0.7;
     vertical-align: middle;
 }
-
-div.avatar p{
-    float:right;
-    font-size:1.0em;
-    text-align: center;
-    padding-right: 3%;
-}
-
 div.post{
     font-size: 1.1em;
     background-color:rgba(0,0,0,0.05);
@@ -104,18 +108,21 @@ div.post{
     margin-bottom: 10px;
     height: 100%;
 }
-
 div.post img{
     opacity: 0.7;
     text-align: center;
 }
-
 div.header{
     display: inline;
 }
-
-p.meta {
+div.left{
+    float:left;
+    width:80%;
+    height:100%;
+}
+div.right{
+    float:right;
+    width: 20%;
+    height:100%;
     text-align: center;
-    font-family:'Arial', 'Sans-Serif';
-    font-size: 1.0em;
 }

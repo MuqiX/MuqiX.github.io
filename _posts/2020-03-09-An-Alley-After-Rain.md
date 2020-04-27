@@ -2,7 +2,7 @@
 layout: post
 title: "雨巷"
 date: 2020-03-09
-category: "每日心情"
+category: "Diary"
 ---
 
 小郭又一次梦到了那个雨巷。

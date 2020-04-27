@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/blog.css">
-		</head>
-		<body>
-            <div class="container">
-                <div class = "left">
-                    <div class = "category">
-                        {% for category in site.categories %}
-                            <h5>{{ category | first }} ({{ category | last | size }})</h5> 
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class = "right">
-                    {{content}}
-                </div>
-            </div>
-		</body>
-	</html>
+---
+layout: default
+---
+
+<div class = "right">
+    <!--ul class = "category">
+        {% for category in site.categories %}
+            <li>{{ category | first }} ({{ category | last | size }})</li> 
+        {% endfor %}
+    </ul-->
+</div>
+<div class = "left">
+    {{content}}
+</div>

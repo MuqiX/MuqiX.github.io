@@ -2,7 +2,7 @@
 layout: post
 title: "入职一个月小记"
 date: 2019-09-14
-category: "每日心情"
+category: "Diary"
 ---
 
 昨天和老崔connect，老崔看着时间Aug.12-Sep.12，很惊喜地说"Wow, you've been here for exactly a month"。我很无厘头的纠正了一句"Well, actually YESTERDAY was exactly a month…"

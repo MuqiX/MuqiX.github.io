@@ -2,7 +2,7 @@
 layout: post
 title: "有森林湖海 也有雪山夕阳"
 date: 2019-10-06
-category: "我的足迹"
+category: "Travel"
 ---
 
 上周和朋友们一起去了奥林匹克国家公园和周边，感觉是近期十分满足的旅行了。

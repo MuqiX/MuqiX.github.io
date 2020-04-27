@@ -5,10 +5,11 @@ title: Muqi's Blog
 <ul class="posts">
     {% for post in paginator.posts %}
     <li>
-        <span>[{{post.category}}] </span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} | {{ post.title }}</a>
-        {{ post.content | split:'<!--more-->' | first }}   
-        <p><h3><a href="{{ post.url }}">继续阅读 &raquo;</a></h3></p>
-        <hr />
+        <span><a href="{{ post.url }}" title="{{ post.title }}">[{% include category_mapping.html %}] {{ post.date | date_to_string }} | {{ post.title }}</a></span>
+        <p class="excerpt">
+            {{ post.content | split:'<!--more-->' | first }}   
+            <a href="{{ post.url }}">... &raquo;</a>
+        </p>
     </li>
     {% endfor %}
 </ul>
