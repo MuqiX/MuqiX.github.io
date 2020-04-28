@@ -8,7 +8,7 @@ layout: default
         {% for category in site.categories %}
             <li>
                 {% assign category_name = category[0]%}
-                <a href="{{ '/blog/name' | prepend: site.baseurl | replace: 'name', category_name}}">
+                <a href="{{ '/blog/name.html' | prepend: site.baseurl | replace: 'name', category_name}}">
                     {% include category_mapping.html %} / {{ category[1].size }}
                 </a>
             </li> 
