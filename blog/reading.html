@@ -3,7 +3,7 @@ layout: bloglayout
 title: Muqi's Blog
 ---
 <ul class="posts">
-    {% for post in paginator.posts %}
+    {% for post in site.categories.Reading %}
     <li>
         <span><a href="{{ post.url }}" title="{{ post.title }}">[{% include category_mapping.html %}] {{ post.date | date: "%Y-%m-%d" }} | {{ post.title }}</a></span>
         <p class="excerpt">
@@ -13,4 +13,3 @@ title: Muqi's Blog
     </li>
     {% endfor %}
 </ul>
-{% include pagination.html %}

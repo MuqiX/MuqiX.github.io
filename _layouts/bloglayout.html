@@ -3,11 +3,18 @@ layout: default
 ---
 
 <div class = "right">
-    <!--ul class = "category">
+    <div class = "category">
+        <ul class = "cates">
         {% for category in site.categories %}
-            <li>{{ category | first }} ({{ category | last | size }})</li> 
+            <li>
+                {% assign category_name = category[0]%}
+                <a href="{{'/blog/name' | | prepend: site.baseurl | replace: 'name', category_name}}">
+                    {% include category_mapping.html %} / {{ category[1].size }}
+                </a>
+            </li> 
         {% endfor %}
-    </ul-->
+        </ul>
+    </div>
 </div>
 <div class = "left">
     {{content}}

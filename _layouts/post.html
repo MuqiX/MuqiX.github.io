@@ -4,7 +4,11 @@ layout: default
 
 <div class="post">
   <h2>{{ page.title }}</h2>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <p class="meta">{{ page.date | date: "%Y/%m/%d" }}</p>
   <br>
-  {{ content }}
+  <div class="article">
+    <p>
+      {{ content }}
+    </p>
+  </div>
 </div>

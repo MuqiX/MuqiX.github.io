@@ -47,17 +47,6 @@ h5{
     text-align: left;
 }
 
-p {
-    line-height: 1.4em;
-    color: #333;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-p.meta {
-    text-align: center;
-    font-size: 1.0em;
-}
-
 ul.posts li{
     list-style: none;
     margin-bottom: 1.5em;
@@ -68,17 +57,17 @@ ul.posts {
 ul.posts p{
     text-indent:35px;
     font-size: 1em;
-    font-weight: 150;
+    font-weight: 250;
     margin-left: 3%;
 }
 ul.posts span{
     font-size: 1.2em;
     font-weight: 500;
 }
-ul.category{
+ul.cates{
     margin-top: 10%;
 }
-ul.category li{
+ul.cates li{
     list-style: none;
     margin-bottom: 1em;
 }
@@ -133,27 +122,26 @@ div.childblock3{
     background-repeat: no-repeat;
     margin-left: 0.5%;
 }
-/*div.childblock1 img{
-    max-width: 100%;
-    max-height: 230px;
-}
-div.childblock2 img{
-    max-width: 100%;
-    max-height: 230px;
-}
-div.childblock3 img{
-    max-width: 100%;
-    max-height: 230px;
-}*/
 
 div.post{
-    font-size: 1.1em;
     background-color:rgba(0,0,0,0.05);
     padding: 2%;
-    text-indent:40px;
     margin-bottom: 10px;
     height: 100%;
 }
+div.post p.meta{
+    text-align: center;
+    font-size: 1.0em;
+}
+div.post div.article{
+    font-size: 1.0em;
+    font-weight: 300;
+    text-indent: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 25px;
+}
+
 div.post img{
     opacity: 0.7;
     text-align: center;
@@ -163,12 +151,20 @@ div.header{
 }
 div.left{
     float:left;
-    width:80%;
+    width:78%;
     height:100%;
+    margin-right: 2%;
 }
 div.right{
     float:right;
-    width: 20%;
-    height:100%;
+    width: 18%;
+    margin-left: 2%;
+}
+div.right div.category{
+    position: fixed;
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0.05);
+    height: 180px;
+    width: inherit;
     text-align: center;
 }
