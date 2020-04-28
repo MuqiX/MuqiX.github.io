@@ -98,7 +98,6 @@ div.intro {
     padding: 2%;
     width: 80%;
     margin: auto;
-    height: 50%;
 }
 div.indeximg{
     display: table;
@@ -109,31 +108,43 @@ div.childblock1{
     display: table-cell;
     overflow: hidden;
     width: 33%;
+    height: 250px;
+    background-image: url("/image/index1_edit.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 0.5%;
 }
 div.childblock2{
     display: table-cell;
     overflow: hidden;
     width: 33%;
+    height: 500px;
+    background-image: url("/image/index2.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 div.childblock3{
     display: table-cell;
     overflow: hidden;
     width: 33%;
+    height: 250px;
+    background-image: url("/image/index3_edit.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0.5%;
 }
-div.childblock1 img{
+/*div.childblock1 img{
     max-width: 100%;
     max-height: 230px;
 }
 div.childblock2 img{
     max-width: 100%;
     max-height: 230px;
-    padding-left: 2.5%;
 }
 div.childblock3 img{
     max-width: 100%;
     max-height: 230px;
-    float: right;
-}
+}*/
 
 div.post{
     font-size: 1.1em;
