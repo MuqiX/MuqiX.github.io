@@ -35,6 +35,10 @@ a:hover {
 
 h1 {
     font-size: 3em;
+    text-align: center;
+}
+h1 span{
+    color: rgba(255,182,193,0.8);
 }
 h2 {
     text-align: center;
@@ -82,24 +86,55 @@ ul.category li{
 div.title{
     text-align: center;
 }
+div.index{
+    height: 100%
+}
 div.blurb {
-    background-color:rgba(0,0,0,0.05);
-    padding: 2%;
-    margin-bottom: 10px;
     overflow: hidden;
+    background-color:rgba(0,0,0,0.05);
 }
 div.intro {
-    float: left;
-    text-indent:20px;
-    width:75%
+    text-indent:40px;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    height: 50%;
 }
-div.avatar img{
-    float:right;
-    border-radius: 50%;
-    width: 20%;
-    opacity: 0.7;
-    vertical-align: middle;
+div.indeximg{
+    display: table;
+    width: 100%;
+    padding-top: 1%;
 }
+div.childblock1{
+    display: table-cell;
+    overflow: hidden;
+    width: 33%;
+}
+div.childblock2{
+    display: table-cell;
+    overflow: hidden;
+    width: 33%;
+}
+div.childblock3{
+    display: table-cell;
+    overflow: hidden;
+    width: 33%;
+}
+div.childblock1 img{
+    max-width: 100%;
+    max-height: 230px;
+}
+div.childblock2 img{
+    max-width: 100%;
+    max-height: 230px;
+    padding-left: 2.5%;
+}
+div.childblock3 img{
+    max-width: 100%;
+    max-height: 230px;
+    float: right;
+}
+
 div.post{
     font-size: 1.1em;
     background-color:rgba(0,0,0,0.05);
