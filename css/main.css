@@ -150,21 +150,23 @@ div.header{
     display: inline;
 }
 div.left{
-    float:left;
-    width:78%;
+    float: left;
+    width: 80%;
     height:100%;
-    margin-right: 2%;
+    padding-bottom: 2%;
 }
 div.right{
     float:right;
-    width: 18%;
-    margin-left: 2%;
+    width: 20%;
 }
 div.right div.category{
     position: fixed;
     margin-top: 2%;
-    background-color: rgba(0,0,0,0.05);
     height: 180px;
     width: inherit;
+    text-align: center;
+}
+
+div.page{
     text-align: center;
 }
