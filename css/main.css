@@ -175,9 +175,15 @@ div.image-gallery {
     text-align: center; 
     margin: 5% 0 5% 0;
 }
-
+div.image-gallery a:hover{
+    background-color: rgba(255,255,255,0)
+}
 div.image-gallery img { 
     text-align: center; 
     width: 30%;
-    margin: 0 0 1% 1%; 
+    margin: 0 0 2% 3%; 
+    transition: all 0.5s;
+}
+div.image-gallery img:hover{
+    transform: scale(1.15);
 }
