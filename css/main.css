@@ -170,3 +170,14 @@ div.right div.category{
 div.page{
     text-align: center;
 }
+
+div.image-gallery { 
+    text-align: center; 
+    margin: 5% 0 5% 0;
+}
+
+div.image-gallery img { 
+    text-align: center; 
+    width: 30%;
+    margin: 0 0 1% 1%; 
+}
