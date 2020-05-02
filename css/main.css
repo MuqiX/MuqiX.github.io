@@ -181,7 +181,7 @@ div.image-gallery a:hover{
 div.image-gallery img { 
     text-align: center; 
     width: 30%;
-    margin: 0 0 2% 3%; 
+    margin: 0 0 2% 2%; 
     transition: all 0.5s;
 }
 div.image-gallery img:hover{
